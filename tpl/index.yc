@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        <span>
+         	{{
+         	ctx.b = 11212
+         	ctx.lock("b")
+         	}}
+         	{{ctx.print(ctx.b) 
+         	ctx.unlock("b")
+ctx.b = 1
+         	}}
+         	{{ctx.print("a",true)}}
+            {{ include test }}
+        </span>
+    </div>
+</body>
+</html>

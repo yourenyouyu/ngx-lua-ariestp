@@ -1,0 +1,9 @@
+    {{ table.insert = nil}}
+<div>
+
+	{{coroutine.yield = nil}}
+{{while true do
+end}}
+    <table>111111111</table>
+    {{ include test3}}
+</div>

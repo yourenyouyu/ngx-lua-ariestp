@@ -1,0 +1,4 @@
+<div>
+    <table>111111111{{ a= 1}}</table>
+    {{ctx.print(type(12))}}
+</div>

@@ -1,0 +1,8 @@
+<div> 
+	<span>
+		{{ include test2}}
+		{{type = nil}}
+		{{ ctx.print(ctx.b) }} 
+		{{ctx.print(a,true)}}
+    </span>
+</div>
